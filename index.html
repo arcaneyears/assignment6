@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment #6 &mdash; jQuery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Assignment #6</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Getting Started</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="task0.html">Task 0. Setup</a></li>
+                        <li><a class="dropdown-item" href="task1.html">Task 1. Selectors &amp; CSS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Effects</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="task2.html">Task 2. Visibility</a></li>
+                        <li><a class="dropdown-item" href="task3.html">Task 3. Fade</a></li>
+                        <li><a class="dropdown-item" href="task4.html">Task 4. Slide</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">DOM</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="task5.html">Task 5. Add &amp; Remove</a></li>
+                        <li><a class="dropdown-item" href="task6.html">Task 6. Attributes</a></li>
+                        <li><a class="dropdown-item" href="task7.html">Task 7. Form</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Animations</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="task8.html">Task 8. Basic</a></li>
+                        <li><a class="dropdown-item" href="task9.html">Task 9. Sequential</a></li>
+                        <li><a class="dropdown-item" href="task10.html">Task 10. Combined</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="task11.html">Mini Project</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="page-header">
+    <div class="container">
+        <h1>Assignment #6. jQuery</h1>
+        <p>Student: Yersaiyn Taubay &middot; Group: SE-2524</p>
+    </div>
+</header>
+
+<main class="container">
+    <div class="panel">
+        <h2 class="h4">About this assignment</h2>
+        <p class="mb-0">
+            This project shows how jQuery simplifies work with the DOM: selectors, effects,
+            attribute changes and animations. Every task is on its own page and can be opened
+            from the navigation bar above.
+        </p>
+    </div>
+
+    <h2 class="h5 mb-3">Part 1. Getting Started with jQuery</h2>
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 0. Setup</h3>
+                <p class="card-text">jQuery from a CDN and the <code>$(document).ready()</code> function.</p>
+                <a href="task0.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-6">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 1. Selectors &amp; CSS</h3>
+                <p class="card-text">Selecting by id, class and tag, then <code>.text()</code>, <code>.html()</code> and <code>.css()</code>.</p>
+                <a href="task1.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+    </div>
+
+    <h2 class="h5 mb-3">Part 2. jQuery Effects</h2>
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 2. Visibility</h3>
+                <p class="card-text"><code>.hide()</code>, <code>.show()</code> and <code>.toggle()</code>.</p>
+                <a href="task2.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 3. Fade</h3>
+                <p class="card-text"><code>.fadeIn()</code>, <code>.fadeOut()</code> and <code>.fadeToggle()</code> on an image.</p>
+                <a href="task3.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 4. Slide</h3>
+                <p class="card-text">A collapsible panel with <code>.slideUp()</code>, <code>.slideDown()</code> and <code>.slideToggle()</code>.</p>
+                <a href="task4.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+    </div>
+
+    <h2 class="h5 mb-3">Part 3. DOM Manipulation with jQuery</h2>
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 5. Add &amp; Remove</h3>
+                <p class="card-text"><code>.append()</code>, <code>.prepend()</code> and <code>.remove()</code> on a list.</p>
+                <a href="task5.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 6. Attributes</h3>
+                <p class="card-text">Changing the <code>src</code> of an image and the <code>href</code> of a link.</p>
+                <a href="task6.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 7. Form</h3>
+                <p class="card-text">Live output of the form fields with <code>.val()</code> and <code>.text()</code>.</p>
+                <a href="task7.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+    </div>
+
+    <h2 class="h5 mb-3">Part 4. Animations</h2>
+    <div class="row g-3 mb-4">
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 8. Basic Animation</h3>
+                <p class="card-text">A square that grows and moves with <code>.animate()</code>.</p>
+                <a href="task8.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 9. Sequential</h3>
+                <p class="card-text">Right, down, shrink and back to the start, step by step.</p>
+                <a href="task9.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 10. Combined</h3>
+                <p class="card-text">Opacity, size and movement in one <code>.animate()</code> call.</p>
+                <a href="task10.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+    </div>
+
+    <h2 class="h5 mb-3">Part 5. Mini Project</h2>
+    <div class="row g-3 mb-4">
+        <div class="col-md-6">
+            <div class="card h-100"><div class="card-body">
+                <h3 class="h6">Task 11. Image Gallery</h3>
+                <p class="card-text">Thumbnails that fade the large picture in and out when they are clicked.</p>
+                <a href="task11.html" class="btn btn-primary btn-sm">Open task</a>
+            </div></div>
+        </div>
+    </div>
+</main>
+
+<footer class="container border-top">
+    <p class="mb-0">Web Technologies &mdash; Front-End Development. Assignment #6.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

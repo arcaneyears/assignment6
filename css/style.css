@@ -1,0 +1,89 @@
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.page-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    padding: 32px 0;
+    margin-bottom: 32px;
+}
+
+.page-header h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.page-header p {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.panel {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 28px;
+    margin-bottom: 32px;
+}
+
+.demo-image {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.collapsible {
+    background-color: #e7f1ff;
+    border: 1px solid #b6d4fe;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #0d6efd;
+    border-radius: 8px;
+    position: relative;
+}
+
+.animation-stage {
+    position: relative;
+    height: 320px;
+    background-color: #f8f9fa;
+    border: 1px dashed #ced4da;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery-thumb {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.gallery-thumb.active {
+    border-color: #0d6efd;
+}
+
+.gallery-large {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 8px;
+}
+
+.live-output {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+footer {
+    padding: 24px 0;
+    color: #6c757d;
+    font-size: 14px;
+}
